@@ -27,6 +27,33 @@
       }
 
       /* Add your flexbox CSS below here */
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        /*align-items: stretch;
+        align-items: flex-start;
+        align-items: flex-end;*/
+
+      }
+
+      button:first-child {
+        align-self: flex-end;
+        /*order: 1;*/
+      }
+      button:last-child {
+        align-self: flex-start;
+        /*order: -1;*/
+      }
+
+     /* button:nth-child(3) {
+        align-self: flex-start
+      }
+      button:nth-child(5) {
+        align-self: center;
+      }*/
+
 
       
     </style>
